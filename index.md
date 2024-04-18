@@ -1,6 +1,4 @@
 ##CFD transient
 ###animation
-theme: jekyll-theme-minimal
-title: WTg19 CFD research
-description:
+
 
