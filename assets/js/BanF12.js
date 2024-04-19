@@ -48,7 +48,7 @@
                 if (a == 0) {
                     a = 1;
                     //此处改成你要跳转的地址
-                    top.location.href = 'https://WTg19.github.io'
+                    top.location.href = 'WTg19.github.io'
                 }
             }, 200)
         }
