@@ -91,7 +91,7 @@ section, summary, time, mark, audio, video {
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;}
+	display: inline-block;}
 
 body {
 	line-height: 1;
@@ -1273,13 +1273,13 @@ input, select, textarea {
 			cursor: default;
 			left: 0;
 			position: absolute;
-			text-align: left;
+			text-align: top;
 			width: 100%;
 			z-index: 2;
 		}
 
 			.poptrox-popup .caption h2, .poptrox-popup .caption h3, .poptrox-popup .caption h4, .poptrox-popup .caption h5, .poptrox-popup .caption h6 {
-				margin: 0 0 0.5em 0;
+				margin: 0 0 3em 0;
 			}
 
 			.poptrox-popup .caption p {
@@ -1377,7 +1377,7 @@ input, select, textarea {
 			-webkit-transition: opacity 0.5s ease, visibility 0.5s;
 			-ms-transition: opacity 0.5s ease, visibility 0.5s;
 			transition: opacity 0.5s ease, visibility 0.5s;
-			background: rgba(36, 38, 41, 0.5);
+			background: rgba(36, 38, 41, 0.6);
 			content: '';
 			display: block;
 			height: 100%;
@@ -1428,7 +1428,7 @@ input, select, textarea {
 			height: 2em;
 			left: 50%;
 			line-height: 2em;
-			margin: -1em 0 0 -1em;
+			margin: -2em -2em -2em -2em;
 			opacity: 0;
 			position: fixed;
 			text-align: center;
@@ -1633,22 +1633,22 @@ input, select, textarea {
 
 			#main .thumb > .image {
 				-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
-				background-position: center;
+				background-position: top;
 				background-repeat: no-repeat;
-				background-size: cover;
-				border: 0;
-				height: 100%;
-				left: 0;
+				background-size: 100%;
+				border: 0rem;
+				height: 80%;
+				left: 3rem;
 				position: absolute;
-				top: 0;
-				width: 100%;
+				top: 3rem;
+				width: 70%;
 			}
 
 			#main .thumb > h2 {
 				pointer-events: none;
-				bottom: 1.875em;
-				font-size: 0.8em;
-				left: 2.1875em;
+				bottom: 1em;
+				font-size: 1.2em;
+				left: 3em;
 				margin: 0;
 				position: absolute;
 				z-index: 1;
